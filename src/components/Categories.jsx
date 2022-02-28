@@ -7,7 +7,7 @@ export const Categories = () => {
 
     useEffect(() => {
         fetchData(); //Cargando los datos de la API al cargar el componente
-    });
+    }, []);
 
     const fetchData = async () => {
         const data = await fetch('https://www.themealdb.com/api/json/v1/1/categories.php'); 
@@ -18,7 +18,7 @@ export const Categories = () => {
     return (
         <>
         <Container style={{ marginTop: '0.5rem', textAlign: 'center' }}>
-            <h2 className="title-section">Categorías</h2>
+            <h2 className="title-section">Explore food by categories</h2>
             <div className="row">
                 {categories.map(category => (
                     <div className="col-md-3" key={category.idCategory}>
@@ -27,7 +27,7 @@ export const Categories = () => {
                             <div className="card-body">
                                 <p className="card-text">{category.strCategory}</p>
                                 <div className="btn-group">
-                                    <Button className="btn btn-block btn-ver" href={`/category/${category.strCategory}`}>Ver categoría</Button>
+                                    <Button className="btn btn-block btn-show" href={`/category/${category.strCategory}`}>Show category</Button>
                                 </div>
                             </div>
                         </div>

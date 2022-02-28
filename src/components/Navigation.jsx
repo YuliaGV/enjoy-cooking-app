@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar, Nav, Container} from 'react-bootstrap';
+import { Navbar, Nav, Container, Form, FormControl, Button} from 'react-bootstrap';
 import logo from '../img/logo.png';
 
 export const Navigation = () => {
@@ -16,12 +16,14 @@ export const Navigation = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="/">Inicio</Nav.Link>
-                        <Nav.Link href="/categories">Categorías</Nav.Link>
-                        <Nav.Link href="/about">Nosotros</Nav.Link>
-                        <Nav.Link href="#link">Videos</Nav.Link>             
+                        <Nav.Link href="/">Home</Nav.Link>
+                        <Nav.Link href="/about">About</Nav.Link>
+                        <Nav.Link href="/search">Search</Nav.Link>
+                        <Nav.Link href="/categories">Categories</Nav.Link>
+                        <Nav.Link href="/places">Places</Nav.Link>           
                     </Nav>
                     </Navbar.Collapse>
+
                 </Container>
             </Navbar>
         </div>

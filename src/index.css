@@ -52,13 +52,13 @@ blockquote::after{
 }
 
 
-.btn-ver{
+.btn-show{
   background:#553634;;
   border-color: #553634;
   color: #fff;
 }
 
-.btn-ver:hover{
+.btn-show:hover{
   background:#B6452C;
   border-color: #B6452C;
 }

@@ -14,7 +14,7 @@ export const About = () => {
 
 
                 <div className="col-md-6">
-                    <h2 className="title-section">Nosotros</h2>
+                    <h2 className="title-section">About us</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Curabitur vitae eleifend sem. Donec quis diam nec nisi ultrices condimentum. 
                     Aenean nec metus sit amet purus sodales fringilla. Praesent interdum lobortis ante a placerat. 

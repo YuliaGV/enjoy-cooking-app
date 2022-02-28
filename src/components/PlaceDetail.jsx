@@ -3,7 +3,7 @@ import { Container, Button} from 'react-bootstrap';
 import { useParams } from 'react-router-dom';
 
 
-export const CategoryDetail = () => {
+export const PlaceDetail = () => {
 
 
     const { name } = useParams(); //Sacando el id del url
@@ -15,7 +15,7 @@ export const CategoryDetail = () => {
     });
 
     const fetchData = async () => {
-        const data = await fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?c=${name}`);
+        const data = await fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?a=${name}`);
         const foods = await data.json();
         setFoods(foods.meals);
     }
@@ -23,7 +23,7 @@ export const CategoryDetail = () => {
     return (
         <Container style={{ marginTop: '0.5rem', textAlign: 'center' }}>
 
-            <h2>Recipes in category {name}</h2>
+            <h2 className="title-section">Recipes from {name} food</h2>
 
             <div className="row">
                 {foods.map(food => (
@@ -33,7 +33,7 @@ export const CategoryDetail = () => {
                             <div className="card-body">
                                 <p className="card-text">{food.strMeal}</p>
                                 <div className="btn-group">
-                                    <Button className="btn btn-block btn-show" href={`/food/${food.idMeal}`}>Show full recipe</Button>
+                                    <Button className="btn btn-block btn-show" href={`/food/${food.idMeal}`}>Show recipe</Button>
                                 </div>
                             </div>
                         </div>

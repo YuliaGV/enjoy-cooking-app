@@ -2,7 +2,6 @@ import React from 'react'
 import { Container} from 'react-bootstrap';
 import { CarouselDiv } from './Carousel';
 import { FoodList } from './FoodList';
-import { Categories } from './Categories';
 
 function Home() {
   return (
@@ -22,7 +21,6 @@ function Home() {
       </Container>
       
       <FoodList /> 
-      <Categories />
 
       
     </>

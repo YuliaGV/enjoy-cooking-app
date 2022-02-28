@@ -16,8 +16,8 @@ export const CarouselDiv = () => {
                     alt="First slide"
                     />
                     <Carousel.Caption>
-                    <h3 style={{ fontSize: '1.8rem'}}>Recetas del mundo</h3>
-                    <p style={{ fontSize: '1.4rem' }}>En la variedad está el placer y en Enjoy Cooking lo sabemos</p>
+                    <h3 style={{ fontSize: '1.2rem'}}>Recipes of the world</h3>
+                    <p style={{ fontSize: '1rem' }}>Explore the world in flavors</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -28,8 +28,8 @@ export const CarouselDiv = () => {
                     />
 
                     <Carousel.Caption>
-                    <h3 style={{ fontSize: '1.8rem'}}>Nuevas recetas cada día</h3>
-                    <p style={{ fontSize: '1.4rem' }}>Sorpréndete en cada visita, nos actualizamos cada día</p>
+                    <h3 style={{ fontSize: '1.2rem'}}>New recipes every day</h3>
+                    <p style={{ fontSize: '1rem' }}>You'll be surprised at each visit to Enjoy Cooking</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -40,8 +40,8 @@ export const CarouselDiv = () => {
                     />
 
                     <Carousel.Caption>
-                    <h3 style={{ fontSize: '1.8rem'}}>¿Qué se te antoja hoy?</h3>
-                    <p style={{ fontSize: '1.4rem' }}>Tenemos recetas para todos tus propósitos, ¡te encantarán!</p>
+                    <h3 style={{ fontSize: '1.2rem'}}>What do you want to eat today?</h3>
+                    <p style={{ fontSize: '1rem' }}>Recipes for every moment of the day</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 </Carousel>
