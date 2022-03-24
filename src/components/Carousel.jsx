@@ -29,7 +29,7 @@ export const CarouselDiv = () => {
 
                     <Carousel.Caption>
                     <h3 style={{ fontSize: '1.2rem'}}>New recipes every day</h3>
-                    <p style={{ fontSize: '1rem' }}>You'll be surprised at each visit to Enjoy Cooking</p>
+                    <p style={{ fontSize: '1rem' }}>You'll be surprised at each visit</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
